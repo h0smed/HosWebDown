@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Website downloader - Take any website offline.' });
+  res.render('index', { title: 'HosWebDown Website downloader - Make HTML websites offline.' });
 });
 
 module.exports = router;
